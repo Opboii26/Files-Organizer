@@ -34,4 +34,5 @@ def clean_folder(path):
             print(f"Renamed {file} → ({index}).{extn}")
 
 if __name__ == "__main__":
-    clean_folder("D:\\Yashneel\\Game Dev\\Python\\Python Projects\\My own\\Sample junk")
+    path = "C:\\Desktop" # --> Enter the path of folder that you want to organize
+    clean_folder(path)
